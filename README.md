@@ -14,10 +14,10 @@ We will post updates here. Stay tuned for the latest information.
 **Level-Plane-SLAM Pseudocode**
 For those interested in implimenting Level-Plane-SLAM here is the algorithm's high level pseudocode. Repeat these steps for each new LIDAR scan so that they can be used for 2D-LIDAR SLAM.
 
-> Get LIDAR scan
-> Get IMU measurement
-> Convert IMU measurement into platform orientation
-> Transform LIDAR scan into 3D using platform orientation
+> Get LIDAR scan \
+> Get IMU measurement syncronized with the LIDAR scan \
+> Convert IMU measurement into platform orientation \
+> Transform LIDAR scan into 3D using platform orientation \
 > Project into 2D
 
 ## Citation
